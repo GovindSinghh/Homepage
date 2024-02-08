@@ -8,6 +8,9 @@ import image_3 from "../util/Challenges.png";
 import image_4 from "../util/image_4.png";
 import icon_4 from "../util/icon_4.png";
 import icon_5 from "../util/icon_5.png";
+import image_5 from "../util/image_5.png";
+import image_6 from "../util/image_6.png";
+import icon_6 from "../util/icon_6.png";
 
 export default function Main(){
     return(
@@ -43,8 +46,32 @@ export default function Main(){
                     <p>Carbon footprint has surged due to industrialization, amplifying the urgency for sustainable practices to curb greenhouse gas emissions and combat climate change</p>
                 </div>
             </div>
-            <img src={icon_5} alt="icon" height="50px" />
+            <div className='row3'>
+                <img src={image_5} alt="additional-image" height="1000px" width="1200px" />
+            </div>
+            <div className='row4'>
+                
+                <div className='text-content'>
+                <div className='icon-heading'>
+            <img src={icon_6} alt="icon_6" height="40px" />
+            <span className='head2'>Get Green NFTs as certificate for burning Carbon Credits</span>
+        </div>
+               <div className='para2'>
+                    <p>Green NFTs represent digital assets that prioritize sustainability and eco-conscious practices, aiming to reduce the carbon footprint associated with blockchain transaction</p>
+                </div>
+                </div>
+                <div className='image-content'>
+                <img src={image_6} alt="nft" height="300px" width="400px" />
+               
+                </div>
+            </div>
 
+          
+
+            <img src={icon_5} alt="icon" height="50px" />
+            
         </section>
+        
+         
     )
 }

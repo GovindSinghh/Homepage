@@ -1,5 +1,8 @@
 .main{
     position:relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .main .quote{
@@ -121,4 +124,40 @@
     position:absolute;
     height:100px;
 }
+
+.row3 {
+    position:absolute;
+    top:2000px;
+    width: 100%; 
+    text-align: center; 
+}
+
+.row4{
+    position:absolute;
+    left:200px;
+    top:3000px;
+    display: flex;
+    gap: 80px;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto; /* Center the container */
+}
+.text-content {
+    width: 50%; /* Take up half of the row */
+}
+
+.image-content {
+    width: 50%; /* Take up half of the row */
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end; /* Align items to the end (right side) */
+}
+
+.image-content img {
+    margin-bottom: 10px; /* Add some spacing between images */
+}
+
+
+
+
 
