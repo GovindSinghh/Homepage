@@ -142,8 +142,33 @@
     justify-content: center;
     margin: 0 auto; /* Center the container */
 }
+.row5{
+    position:absolute;
+    left:200px;
+    top:3400px;
+    display: flex;
+    gap: 80px;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto; /* Center the container */
+}
+.row6{
+    position:absolute;
+    left:200px;
+    top:3500px;
+    display: flex;
+    gap: 80px;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto; /* Center the container */
+}
+
 .text-content {
     width: 50%; /* Take up half of the row */
+}
+
+.text-content2 {
+    width: 100%; /* Take up half of the row */
 }
 
 .image-content {
